@@ -1,6 +1,8 @@
 # NR2003
 This is an attempt at making NR2003 open source for the purposes of (a) recompiling to 64-bit to extend lifetime, (b) make it eaiser to use modern hardware features such as AVX, DX11, etc., and (c) increasing its modability.  The non-source files are [ghidra](https://ghidra-sre.org/) project files.
 
+To help with this project, you will need to go into `OpenNR2003.rep/project.prp` and change the value of the `OWNER` tag to whatever your computer's login name is.
+
 ## Project Goals
 Here are the following goals for this project.  All pull requests must work to advance one of these goals or the request will be rejected.  No pull request shall be made which attempts to fundamentally alter what the game is.
 * Decompile the game into readable source code, such that recompiling will produce the exact same results as the original game.
